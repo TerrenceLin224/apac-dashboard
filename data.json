@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "last_updated": "2026-05-06",
+    "gp_rate": 0.257,
+    "currency": "USD",
+    "exchange_rate_note": "NTD 30 / USD"
+  },
+  "regions": [
+    {
+      "id": "tw_hk",
+      "name": "Taiwan + Hong Kong",
+      "head": "Terrence Lin",
+      "head_initials": "TL",
+      "head_color": "#E6F1FB",
+      "head_text": "#0C447C",
+      "head_monthly_base_ntd": 80000,
+      "members": [
+        {
+          "name": "Chloe",
+          "initials": "C",
+          "role": "AE",
+          "coverage": "T&L",
+          "coverage_type": "tl",
+          "gp_target_usd": 274767,
+          "pipeline_rev_usd": 587548,
+          "monthly_base_ntd": 68000,
+          "status": "active"
+        },
+        {
+          "name": "Kate",
+          "initials": "K",
+          "role": "AE",
+          "coverage": "Retail / Gov",
+          "coverage_type": "ret",
+          "gp_target_usd": 180053,
+          "pipeline_rev_usd": 967485,
+          "monthly_base_ntd": 50000,
+          "status": "active"
+        },
+        {
+          "name": "Alex",
+          "initials": "A",
+          "role": "AE",
+          "coverage": "MFG / Healthcare",
+          "coverage_type": "mfg",
+          "gp_target_usd": 156072,
+          "pipeline_rev_usd": 222061,
+          "monthly_base_ntd": 70000,
+          "status": "active"
+        },
+        {
+          "name": "Peter",
+          "initials": "P",
+          "role": "Inside Sales",
+          "coverage": "TW Inbound",
+          "coverage_type": "ins",
+          "gp_target_usd": null,
+          "pipeline_rev_usd": null,
+          "monthly_base_ntd": null,
+          "status": "active"
+        },
+        {
+          "name": "New Inside Sales",
+          "initials": "IS",
+          "role": "Inside Sales",
+          "coverage": "TW Inbound",
+          "coverage_type": "ins",
+          "gp_target_usd": null,
+          "pipeline_rev_usd": null,
+          "monthly_base_ntd": null,
+          "status": "active"
+        },
+        {
+          "name": "MFG Sales",
+          "initials": "—",
+          "role": "AE",
+          "coverage": "MFG",
+          "coverage_type": "mfg",
+          "gp_target_usd": 140084,
+          "pipeline_rev_usd": 12751,
+          "monthly_base_ntd": null,
+          "status": "open"
+        },
+        {
+          "name": "Pre-Sales Engineer",
+          "initials": "—",
+          "role": "Pre-Sales",
+          "coverage": "All verticals",
+          "coverage_type": "pre",
+          "gp_target_usd": null,
+          "pipeline_rev_usd": null,
+          "monthly_base_ntd": null,
+          "status": "open"
+        }
+      ],
+      "performance": {
+        "annual_gp_target": 900444,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": 0.257,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "head": "DJ",
+      "head_initials": "DJ",
+      "head_color": "#FAEEDA",
+      "head_text": "#633806",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "head": "Mo",
+      "head_initials": "Mo",
+      "head_color": "#FBEAF0",
+      "head_text": "#72243E",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "anz",
+      "name": "ANZ",
+      "head": "Johnny Lam",
+      "head_initials": "JL",
+      "head_color": "#E1F5EE",
+      "head_text": "#085041",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "sea",
+      "name": "SEA",
+      "head": "Sam",
+      "head_initials": "S",
+      "head_color": "#FAEEDA",
+      "head_text": "#633806",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "head": "Kou-san",
+      "head_initials": "K",
+      "head_color": "#E6F1FB",
+      "head_text": "#0C447C",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    }
+  ]
+}
