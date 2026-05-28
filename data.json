@@ -1,1 +1,339 @@
 
+{
+  "meta": {
+    "last_updated": "2026-05-28",
+    "gp_rate": 0.257,
+    "currency": "USD",
+    "exchange_rate_note": "NTD 30 / USD"
+  },
+  "regions": [
+    {
+      "id": "tw_hk",
+      "name": "Taiwan + Hong Kong",
+      "head": "Terrence Lin",
+      "head_initials": "TL",
+      "head_color": "#E6F1FB",
+      "head_text": "#0C447C",
+      "head_monthly_base_ntd": 80000,
+      "members": [
+        {
+          "name": "Chloe",
+          "initials": "C",
+          "role": "AE",
+          "coverage": "T&L",
+          "coverage_type": "tl",
+          "gp_target_usd": 274767,
+          "pipeline_rev_usd": 587548,
+          "monthly_base_ntd": 68000,
+          "status": "active"
+        },
+        {
+          "name": "Kate",
+          "initials": "K",
+          "role": "AE",
+          "coverage": "Retail / Gov",
+          "coverage_type": "ret",
+          "gp_target_usd": 180053,
+          "pipeline_rev_usd": 967485,
+          "monthly_base_ntd": 50000,
+          "status": "active"
+        },
+        {
+          "name": "Alex",
+          "initials": "A",
+          "role": "AE",
+          "coverage": "MFG / Healthcare",
+          "coverage_type": "mfg",
+          "gp_target_usd": 156072,
+          "pipeline_rev_usd": 222061,
+          "monthly_base_ntd": 70000,
+          "status": "active"
+        },
+        {
+          "name": "Peter",
+          "initials": "P",
+          "role": "Inside Sales",
+          "coverage": "TW Inbound",
+          "coverage_type": "ins",
+          "gp_target_usd": null,
+          "pipeline_rev_usd": null,
+          "monthly_base_ntd": null,
+          "status": "active"
+        },
+        {
+          "name": "New Inside Sales",
+          "initials": "IS",
+          "role": "Inside Sales",
+          "coverage": "TW Inbound",
+          "coverage_type": "ins",
+          "gp_target_usd": null,
+          "pipeline_rev_usd": null,
+          "monthly_base_ntd": null,
+          "status": "active"
+        },
+        {
+          "name": "MFG Sales",
+          "initials": "—",
+          "role": "AE",
+          "coverage": "MFG",
+          "coverage_type": "mfg",
+          "gp_target_usd": 140084,
+          "pipeline_rev_usd": 12751,
+          "monthly_base_ntd": null,
+          "status": "open"
+        },
+        {
+          "name": "Pre-Sales Engineer",
+          "initials": "—",
+          "role": "Pre-Sales",
+          "coverage": "All verticals",
+          "coverage_type": "pre",
+          "gp_target_usd": null,
+          "pipeline_rev_usd": null,
+          "monthly_base_ntd": null,
+          "status": "open"
+        }
+      ],
+      "performance": {
+        "annual_gp_target": 900444,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": 0.257,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "head": "DJ",
+      "head_initials": "DJ",
+      "head_color": "#FAEEDA",
+      "head_text": "#633806",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "head": "Mo",
+      "head_initials": "Mo",
+      "head_color": "#FBEAF0",
+      "head_text": "#72243E",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [
+          {
+            "level": "y",
+            "text": "RK26 TE 無法修復（ESC / Cluster Stack / 自動斷線）",
+            "sub": "Owner: Aloun — 影響 CJ Express 專案"
+          },
+          {
+            "level": "y",
+            "text": "High Japan Gas RK26 — 無法充電 & 觸控異常",
+            "sub": "Pre-sales Sanong 現場電表測量 + 錄影對照"
+          },
+          {
+            "level": "y",
+            "text": "CJ Express 掃描無解碼 / 無光束",
+            "sub": "Pre-sales Sanong — 取得異常確切時間點"
+          },
+          {
+            "level": "y",
+            "text": "Adidas 倉庫 OCR 技術驗證進行中",
+            "sub": "Pre-sales Sanong — OCR vs QR Code 待釐清"
+          },
+          {
+            "level": "y",
+            "text": "Fisher & Paykel OCR — 玻璃樣品週五前寄總部",
+            "sub": "CXS-Aloun · Due: 2026-05-30"
+          },
+          {
+            "level": "g",
+            "text": "AAT Phase 1 修改收費說明 — 6/11 客戶說明",
+            "sub": "CXS-Aloun · Due: 2026-06-11"
+          },
+          {
+            "level": "g",
+            "text": "Kawasaki DPM 新型號現場測試 — 下週進行",
+            "sub": "Pre-sales Sanong · Due: 2026-06-04"
+          }
+        ],
+        "factory": [
+          {
+            "level": "r",
+            "text": "Toyota RS10 備品 — 背蓋 x20，週四前SN輸入RMA，週五出貨",
+            "sub": "IDM/OGA → Kent · Due: 2026-05-29"
+          },
+          {
+            "level": "r",
+            "text": "Toyota RS10 出貨文件 — 週四早上資料交 Kent",
+            "sub": "IDM/OGA · Due: 2026-05-28"
+          },
+          {
+            "level": "y",
+            "text": "電池規格變更 3000→3300 mAh — 代理商重新申請認證",
+            "sub": "⚠️ 負責人待指定 — 約需 2–3 個月"
+          }
+        ],
+        "pm_rd": [
+          {
+            "level": "y",
+            "text": "Zebra 掃描引擎 — 等待 Root Cause Analysis 與改善對策",
+            "sub": "PM Hank 追蹤 RCA 與交期"
+          },
+          {
+            "level": "y",
+            "text": "MHI 2564 掃描器連線異常 — 效能佳但連線不良",
+            "sub": "Vincent Huang 確認中"
+          }
+        ],
+        "marketing": [
+          {
+            "level": "y",
+            "text": "Computex 客戶邀請 — OGA / Watson / Quadel / CGA / Samart",
+            "sub": "Pitakarn 發送 Pipeline 預估郵件取得預算核准"
+          },
+          {
+            "level": "y",
+            "text": "Watsons Computex 行程 6/4 — 簡化、展費與 Quadell 分攤",
+            "sub": "展示：1204、1264、RS20、台灣全家案例"
+          },
+          {
+            "level": "y",
+            "text": "Samart 晚宴 — Thomas/Cesar 缺席，需高品質禮品",
+            "sub": "Terrence 負責安排"
+          }
+        ],
+        "bdm_sales": [
+          {
+            "level": "r",
+            "text": "RK26 CJ Express 軟體定價 — Velocity 價格支援",
+            "sub": "HQ Terrence 與 OEM 討論"
+          },
+          {
+            "level": "y",
+            "text": "American Standard — 把握度 90%，等待 PO",
+            "sub": "泰國業務團隊持續跟催"
+          },
+          {
+            "level": "g",
+            "text": "RS38 RFID V2 修復完成 — 7月里程碑，20個潛在專案",
+            "sub": "Due: 2026-07-01"
+          },
+          {
+            "level": "g",
+            "text": "Zueiling Pharma — 預計 7 月結案",
+            "sub": "Due: 2026-07-31"
+          },
+          {
+            "level": "g",
+            "text": "NYK — 已進入第二波下單",
+            "sub": "持續追蹤"
+          }
+        ],
+        "hr": ""
+      }
+    },
+    {
+      "id": "anz",
+      "name": "ANZ",
+      "head": "Johnny Lam",
+      "head_initials": "JL",
+      "head_color": "#E1F5EE",
+      "head_text": "#085041",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "sea",
+      "name": "SEA",
+      "head": "Sam",
+      "head_initials": "S",
+      "head_color": "#FAEEDA",
+      "head_text": "#633806",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "head": "Kou-san",
+      "head_initials": "K",
+      "head_color": "#E6F1FB",
+      "head_text": "#0C447C",
+      "head_monthly_base_ntd": null,
+      "members": [],
+      "performance": {
+        "annual_gp_target": null,
+        "q_shipped": null,
+        "q_pending": null,
+        "gm_estimated": null,
+        "gm_last_month": null
+      },
+      "activity": {
+        "presales": [],
+        "factory": [],
+        "pm_rd": [],
+        "marketing": [],
+        "hr": ""
+      }
+    }
+  ]
+}
