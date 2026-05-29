@@ -1,4 +1,3 @@
-
 {
   "meta": {
     "last_updated": "2026-05-28",
@@ -126,11 +125,81 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [],
-        "factory": [],
-        "pm_rd": [],
+        "presales": [
+          {
+            "level": "y",
+            "text": "Seabird SDK 支援缺口 — 需在系統建立 Case",
+            "sub": "印度業務團隊 — 讓技術團隊接手處理"
+          }
+        ],
+        "factory": [
+          {
+            "level": "y",
+            "text": "Samsung 52台（首批22台）— 確認是否能 6月底交貨",
+            "sub": "印度業務團隊 · Due: 2026-06-30"
+          }
+        ],
+        "pm_rd": [
+          {
+            "level": "r",
+            "text": "Maruti Suzuki Pogo Pin 損壞 — 300件 / 2200台，需 RCA 與改善報告",
+            "sub": "技術與研發團隊 — 上線半年內累積 300 件，急需根本原因分析"
+          },
+          {
+            "level": "y",
+            "text": "Panasonic Haridwar RS36 Wi-Fi/LTE 斷線 — 新 Firmware 2台觀察中",
+            "sub": "技術團隊 — 疑為網路卡異常，觀察 2-3 天後決定下一步"
+          },
+          {
+            "level": "y",
+            "text": "Super K RS10 自動關機 — 暫停換板，送中國廠區深度分析並產出報告",
+            "sub": "技術與研發團隊 — 泰國端類似上蓋異常一併追蹤"
+          },
+          {
+            "level": "y",
+            "text": "槍把黃色扳機單獨更換可行性 — 確認技術可行性、報價方式並提供樣品",
+            "sub": "技術與研發團隊 — 2-pin 接頭單獨更換，降低維修成本"
+          }
+        ],
         "marketing": [],
-        "hr": ""
+        "bdm_sales": [
+          {
+            "level": "r",
+            "text": "電池更換專案 — 300顆需求，RMA核准192顆，Delmont調撥100顆，6月底完成",
+            "sub": "Dhananjay · Due: 2026-06-30 — 需發信說明交期 / 時程 / SOP"
+          },
+          {
+            "level": "y",
+            "text": "Hero MotoCorp — 等待 2506 HD 測試設備，本週五拜訪",
+            "sub": "印度業務團隊 · Due: 2026-05-30 — 競爭：Zebra / Datalogic"
+          },
+          {
+            "level": "y",
+            "text": "Samsung 52台 — 確認 6月底交期",
+            "sub": "印度業務團隊 · Due: 2026-06-30 — 首批 22 台 + 後續 30 台"
+          },
+          {
+            "level": "y",
+            "text": "Tata Electronics 1000台 RS36 Wi-Fi — 安排測試展示",
+            "sub": "印度業務團隊 — 潛在大案，推進測試安排"
+          },
+          {
+            "level": "y",
+            "text": "槍把黃色扳機技術可行性報告 + 報價方式",
+            "sub": "技術與研發團隊 — 確認後提供報價"
+          },
+          {
+            "level": "g",
+            "text": "Big Basket — 潛在 2500台，持續跟進",
+            "sub": "印度業務團隊"
+          },
+          {
+            "level": "g",
+            "text": "Bata x20 / Quantum Paper x7-8 小批量測試",
+            "sub": "印度業務團隊 — 持續進行中"
+          }
+        ],
+        "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期 · 下週因 Computex 例行會議暫停一次"
       }
     },
     {
