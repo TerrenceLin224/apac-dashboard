@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-09",
+    "last_updated": "2026-06-15",
     "gp_rate": 0.257,
     "currency": "USD",
     "exchange_rate_note": "NTD 30 / USD"
@@ -138,72 +138,6 @@
             "factory": null
           },
           {
-            "level": "r",
-            "project": "Maruti Suzuki Pogo Pin",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": null,
-            "cxs": "300件損壞 / 2200台",
-            "pm_rd": "RCA 報告與改善對策",
-            "rma": "300件 Pogo Pin",
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "Panasonic Haridwar RS36",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": null,
-            "cxs": "2台韌體更新觀察 2-3 天",
-            "pm_rd": "疑為網路卡異常",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "Super K RS10 自動關機",
-            "partner": "eu",
-            "vertical": "T&L",
-            "sales": null,
-            "cxs": null,
-            "pm_rd": "送中國廠區深度分析並產出報告",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "槍把黃色扳機換件",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": null,
-            "cxs": null,
-            "pm_rd": "確認技術可行性、報價方式並提供樣品",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "r",
-            "project": "電池更換專案",
-            "partner": "aidc",
-            "vertical": "—",
-            "sales": "Dhananjay 發信說明交期/SOP",
-            "cxs": null,
-            "pm_rd": null,
-            "rma": "300顆，RMA核准192，Delmont調100",
-            "factory": "6月底完成"
-          },
-          {
-            "level": "y",
-            "project": "Hero MotoCorp 2506 HD",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": "本週五拜訪，競爭：Zebra/Datalogic",
-            "cxs": "等待測試設備",
-            "pm_rd": null,
-            "rma": null,
-            "factory": null
-          },
-          {
             "level": "y",
             "project": "Samsung 1264 x80台",
             "partner": "eu",
@@ -238,7 +172,7 @@
           },
           {
             "level": "g",
-            "project": "Bata x20 / Quantum Paper x7-8",
+            "project": "Bata x20 / Quantum Paper x7-8 測試",
             "partner": "eu",
             "vertical": "Retail",
             "sales": "小批量測試進行中",
@@ -246,9 +180,130 @@
             "pm_rd": null,
             "rma": null,
             "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Hero MotoCorp 2506 HD x3000",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "進入商業定價談判，評估目標價格與總部討論",
+            "cxs": "測試運作良好，已從 1204 轉移至 2506 HD",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "r",
+            "project": "Maruti Suzuki 硬體損壞 RCA",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "待 RCA 後向客戶提交改善方案",
+            "cxs": "槍把 / 4SBC / Pogo Pin 頻繁損壞",
+            "pm_rd": "RCA 報告產出（HQ Alan）",
+            "rma": "槍把 / 4SBC / Pogo Pin",
+            "factory": "確認 4SBC 缺貨交期"
+          },
+          {
+            "level": "y",
+            "project": "Panasonic Beta 韌體問題",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "客戶對反覆測試不滿",
+            "pm_rd": "安排 R&D 線上即時除錯，取代反覆寄送 Beta 韌體",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Highlex RK95 MDM 統一方案",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "Vijay 負責 RemoCloud Express PoC 測試",
+            "pm_rd": "待 RK96 新韌體發布後轉移",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Quantum Paper A4 OCR 發票辨識",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "確認 2506 HD 是否滿足 A4 全頁 OCR 需求",
+            "pm_rd": "A4 全頁 OCR 可行性評估",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "背蓋 Back Cover 出貨",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": "6月底~7月初 2000個出貨；確認是否能提前 100~150個"
+          },
+          {
+            "level": "g",
+            "project": "主機板 Flash 問題",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "問題已解決，提供修復細節給印度團隊",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "5500 掃描引擎問題",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "PM Hank + Zebra 後續分析中",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "Software Trigger OTA 更新",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "將包含在未來 OTA 更新中",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "印度庫存水位偏高",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "專注推動 Sell-out 降低庫存壓力",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "r",
+            "project": "電池更換專案",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "Dhananjay 發信說明交期/SOP",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": "300顆，RMA核准192，Delmont調100",
+            "factory": "6月底完成"
           }
         ],
-        "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期 · 下週因 Computex 例行會議暫停一次"
+        "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期"
       }
     },
     {
