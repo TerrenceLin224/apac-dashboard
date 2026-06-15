@@ -129,36 +129,42 @@
           {
             "level": "y",
             "text": "Seabird SDK 支援缺口 — 需在系統建立 Case",
-            "sub": "印度業務團隊 — 讓技術團隊接手處理"
+            "sub": "印度業務團隊 — 讓技術團隊接手處理",
+            "audience": "si"
           }
         ],
         "factory": [
           {
             "level": "y",
             "text": "Samsung 1264 x80台採購（首批22台）— 確認是否能 6月底交貨",
-            "sub": "印度業務團隊 · Due: 2026-06-30 — 首批 22 台，後續 30 台"
+            "sub": "印度業務團隊 · Due: 2026-06-30",
+            "audience": "eu"
           }
         ],
         "pm_rd": [
           {
             "level": "r",
             "text": "Maruti Suzuki Pogo Pin 損壞 — 300件 / 2200台，需 RCA 與改善報告",
-            "sub": "技術與研發團隊 — 上線半年內累積 300 件，急需根本原因分析"
+            "sub": "技術與研發團隊 — 上線半年內累積 300 件",
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "Panasonic Haridwar RS36 Wi-Fi/LTE 斷線 — 新 Firmware 2台觀察中",
-            "sub": "技術團隊 — 疑為網路卡異常，觀察 2-3 天後決定下一步"
+            "sub": "技術團隊 — 疑為網路卡異常，觀察 2-3 天",
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "Super K RS10 自動關機 — 暫停換板，送中國廠區深度分析並產出報告",
-            "sub": "技術與研發團隊 — 泰國端類似上蓋異常一併追蹤"
+            "sub": "技術與研發團隊 — 泰國端類似異常一併追蹤",
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "槍把黃色扳機單獨更換可行性 — 確認技術可行性、報價方式並提供樣品",
-            "sub": "技術與研發團隊 — 2-pin 接頭單獨更換，降低維修成本"
+            "sub": "技術與研發團隊 — 2-pin 接頭單獨更換，降低維修成本",
+            "audience": "eu"
           }
         ],
         "marketing": [],
@@ -166,37 +172,44 @@
           {
             "level": "r",
             "text": "電池更換專案 — 300顆需求，RMA核准192顆，Delmont調撥100顆，6月底完成",
-            "sub": "Dhananjay · Due: 2026-06-30 — 需發信說明交期 / 時程 / SOP"
+            "sub": "Dhananjay · Due: 2026-06-30 — 需發信說明交期 / 時程 / SOP",
+            "audience": "aidc"
           },
           {
             "level": "y",
             "text": "Hero MotoCorp — 等待 2506 HD 測試設備，本週五拜訪",
-            "sub": "印度業務團隊 · Due: 2026-05-30 — 競爭：Zebra / Datalogic"
+            "sub": "印度業務團隊 · Due: 2026-05-30 — 競爭：Zebra / Datalogic",
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "Samsung 1264 x80台 — 確認 6月底交期",
-            "sub": "印度業務團隊 · Due: 2026-06-30 — 首批 22 台 + 後續 30 台"
+            "sub": "印度業務團隊 · Due: 2026-06-30",
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "Tata Electronics 1000台 RS36 Wi-Fi — 安排測試展示",
-            "sub": "印度業務團隊 — 潛在大案，推進測試安排"
+            "sub": "印度業務團隊 — 潛在大案",
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "槍把黃色扳機技術可行性報告 + 報價方式",
-            "sub": "技術與研發團隊 — 確認後提供報價"
+            "sub": "技術與研發團隊 — 確認後提供報價",
+            "audience": "eu"
           },
           {
             "level": "g",
             "text": "Big Basket — 潛在 2500台，持續跟進",
-            "sub": "印度業務團隊"
+            "sub": "印度業務團隊",
+            "audience": "eu"
           },
           {
             "level": "g",
             "text": "Bata x20 / Quantum Paper x7-8 小批量測試",
-            "sub": "印度業務團隊 — 持續進行中"
+            "sub": "印度業務團隊 — 持續進行中",
+            "audience": "eu"
           }
         ],
         "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期 · 下週因 Computex 例行會議暫停一次"
@@ -222,71 +235,65 @@
         "presales": [
           {
             "level": "y",
-            "text": "Fisher & Paykel OCR — 客戶僅能提供照片，等待 OCR 團隊評估可行性",
+            "text": "Fisher & Paykel OCR — 客戶僅能提供照片，等待 OCR 團隊評估",
             "sub": "OCR 團隊審查中",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "Arçelik (Hitachi) RemoCloud 無法註冊 & 設定檔未更新 — 已派強制同步指令，持續監控",
-            "sub": "技術支援團隊持續監控 — Google 伺服器同步時間差所致",
-            "audience": null
+            "sub": "技術支援團隊 — Google 伺服器同步時間差",
+            "audience": "eu"
           },
           {
             "level": "g",
-            "text": "Thai Japan Gas AK26 過充問題 — 確認為單一個案，客戶已自行換電池，已結案",
-            "sub": "已結案",
-            "audience": null
+            "text": "Thai Japan Gas AK26 過充 — 確認單一個案，已結案",
+            "sub": "客戶已自行換電池",
+            "audience": "eu"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] RK26 TE 無法修復（ESC / Cluster Stack / 自動斷線）",
-            "sub": "Aloun — 影響 CJ Express 專案，尚無對策",
-            "audience": null
+            "text": "⚠️ [未解決] RK26 TE 無法修復（ESC / Cluster Stack / 自動斷線）",
+            "sub": "Aloun — 影響 CJ Express 專案",
+            "audience": "eu"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] High Japan Gas RK26 — 無法充電 & 觸控異常",
-            "sub": "Pre-sales Sanong — 現場電表測量 + 錄影對照",
-            "audience": null
+            "text": "⚠️ [未解決] High Japan Gas RK26 — 無法充電 & 觸控異常",
+            "sub": "Pre-sales Sanong — 現場電表測量",
+            "audience": "eu"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] Adidas 倉庫 OCR 技術驗證進行中",
+            "text": "⚠️ [未解決] Adidas 倉庫 OCR 技術驗證進行中",
             "sub": "Pre-sales Sanong — OCR vs QR Code 待釐清",
-            "audience": null
+            "audience": "si"
           }
         ],
         "factory": [
           {
             "level": "r",
             "text": "Toyota RS10 — 300組背蓋與電源鍵，6月底前出貨",
-            "sub": "總部 / 工廠端 · Due: 2026-06-30 — FPC 排線瑕疵（9月前批次）已確認",
-            "audience": null
+            "sub": "總部/工廠端 · Due: 2026-06-30",
+            "audience": "eu"
           },
           {
             "level": "y",
-            "text": "CipherLab 瀏覽器授權到期 — 需重新申請並展延軟體授權",
+            "text": "CipherLab 瀏覽器授權到期 — 需重新申請並展延授權",
             "sub": "SW PM/RD — 受影響客戶待確認",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "g",
-            "text": "IDM 庫存水位 — 886台，本月 Sell-out 約 200台，月底維持健康水位",
-            "sub": "IDM 團隊確認本週到貨量",
-            "audience": null
-          },
-          {
-            "level": "r",
-            "text": "⚠️ [上週未解決] Toyota RS10 出貨文件 — 週四早上資料交 Kent",
-            "sub": "IDM/OGA · Due: 2026-05-28",
-            "audience": null
+            "text": "IDM 庫存水位 — 886台，本月 Sell-out 約 200台",
+            "sub": "IDM 團隊確認本週到貨",
+            "audience": "aidc"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] 電池規格變更 3000→3300 mAh — 代理商重新申請認證",
+            "text": "⚠️ [未解決] 電池規格變更 3000→3300 mAh — 代理商重新申請認證",
             "sub": "⚠️ 負責人待指定 — 約需 2–3 個月",
-            "audience": null
+            "audience": "aidc"
           }
         ],
         "pm_rd": [
@@ -294,37 +301,37 @@
             "level": "g",
             "text": "Toyota RS10 根本原因確認 — FPC 排線瑕疵（9月前批次）已釐清",
             "sub": "已確認",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "g",
             "text": "CJ Express OTA 韌體 — 6月初已發布，速度問題已解決",
             "sub": "已完成",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "AAT Ford Phase 1 新增項目 — 等待線上會議確認最終報價",
             "sub": "Terrence 安排線上會議",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "r",
-            "text": "⚠️ [上週未解決] RK26 CJ Express 軟體定價 — Velocity 價格支援",
+            "text": "⚠️ [未解決] RK26 CJ Express 軟體定價 — Velocity 價格支援",
             "sub": "HQ Terrence 與 OEM 討論",
-            "audience": null
+            "audience": "si"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] Zebra 掃描引擎 — 等待 Root Cause Analysis 與改善對策",
+            "text": "⚠️ [未解決] Zebra 掃描引擎 — 等待 Root Cause Analysis",
             "sub": "PM Hank 追蹤 RCA 與交期",
-            "audience": null
+            "audience": "aidc"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] MHI 2564 掃描器連線異常",
+            "text": "⚠️ [未解決] MHI 2564 掃描器連線異常",
             "sub": "Vincent Huang 確認中",
-            "audience": null
+            "audience": "eu"
           }
         ],
         "marketing": [
@@ -332,19 +339,7 @@
             "level": "y",
             "text": "IDM 經銷商研討會 — 籌備中，無額外費用，待 IDM 確認日期",
             "sub": "IDM 團隊確認舉辦時間",
-            "audience": null
-          },
-          {
-            "level": "y",
-            "text": "⚠️ [上週未解決] Computex 客戶邀請 — OGA / Watson / Quadel / CGA / Samart",
-            "sub": "Pitakarn 發送 Pipeline 預估郵件",
-            "audience": null
-          },
-          {
-            "level": "y",
-            "text": "⚠️ [上週未解決] Samart 晚宴 — Thomas/Cesar 缺席，需高品質禮品",
-            "sub": "Terrence 負責安排",
-            "audience": null
+            "audience": "aidc"
           }
         ],
         "bdm_sales": [
@@ -352,52 +347,52 @@
             "level": "y",
             "text": "Central 專案 — PO 70台已收，50台確認中，本週安裝",
             "sub": "Sunny",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "Adidas — 已發信，Sunny 負責後續安裝",
             "sub": "Sunny",
-            "audience": null
+            "audience": "si"
           },
           {
             "level": "y",
             "text": "Ajinomoto — 目標預算 $10,000，Terrence 接手價格談判",
             "sub": "Terrence",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "y",
             "text": "曼谷垃圾車專案 (BKK Trash) — 負責長官異動，進度延宕",
             "sub": "泰國業務團隊持續追蹤",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "g",
             "text": "CJ / Watson RS20 — 4台 Demo unit 已備妥，客戶明年評估轉換",
             "sub": "泰國業務團隊",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "y",
-            "text": "⚠️ [上週未解決] American Standard — 把握度 90%，等待 PO",
+            "text": "⚠️ [未解決] American Standard — 把握度 90%，等待 PO",
             "sub": "泰國業務團隊",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "g",
-            "text": "⚠️ [上週未解決] RS38 RFID V2 修復完成 — 7月里程碑，20個潛在專案",
+            "text": "⚠️ [未解決] RS38 RFID V2 修復完成 — 7月里程碑",
             "sub": "Due: 2026-07-01",
-            "audience": null
+            "audience": "eu"
           },
           {
             "level": "g",
-            "text": "⚠️ [上週未解決] Zueiling Pharma — 預計 7 月結案",
+            "text": "⚠️ [未解決] Zueiling Pharma — 預計 7 月結案",
             "sub": "Due: 2026-07-31",
-            "audience": null
+            "audience": "eu"
           }
         ],
-        "hr": "上週：Ashmuk (India) 離職交接，DJ 接手"
+        "hr": ""
       }
     },
     {

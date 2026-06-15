@@ -242,28 +242,27 @@
     vertical-align: top;
   }
   .act-cell:not(:last-child) { border-right: 1px solid var(--border); }
-  .act-item { display: flex; gap: 7px; margin-bottom: 8px; align-items: flex-start; }
+  /* ── Activity Matrix ── */
+  .act-matrix { display: grid; grid-template-columns: 110px repeat(5, 1fr); border-top: 1px solid var(--border); }
+  .act-col-header { font-size: 11px; font-weight: 500; color: var(--text-secondary); padding: 8px 12px; background: var(--surface2); border-bottom: 1px solid var(--border); letter-spacing: 0.03em; text-transform: uppercase; border-right: 1px solid var(--border); }
+  .act-row-header { font-size: 11px; font-weight: 500; padding: 10px 8px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: center; text-align: center; }
+  .act-row-header.aud-eu-row   { color: #0C447C; background: #F0F6FD; }
+  .act-row-header.aud-si-row   { color: #27500A; background: #F3F9EA; }
+  .act-row-header.aud-aidc-row { color: #633806; background: #FDF5EA; }
+  .act-cell { padding: 10px 12px; font-size: 12px; color: var(--text-secondary); min-height: 70px; line-height: 1.6; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .act-cell.aud-eu-row   { background: #FAFCFF; }
+  .act-cell.aud-si-row   { background: #FAFDF6; }
+  .act-cell.aud-aidc-row { background: #FFFDF8; }
+  .act-item { display: flex; gap: 6px; margin-bottom: 7px; align-items: flex-start; }
   .act-item:last-child { margin-bottom: 0; }
-  .act-item-left { display: flex; flex-direction: column; align-items: center; gap: 4px; flex-shrink: 0; padding-top: 3px; }
-  .act-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .act-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; margin-top: 4px; }
   .dot-r { background: #E24B4A; }
   .dot-y { background: #EF9F27; }
   .dot-g { background: #639922; }
-  .act-audience {
-    font-size: 9px; font-weight: 500; letter-spacing: 0.02em;
-    padding: 1px 5px; border-radius: 3px;
-    white-space: nowrap; line-height: 1.4;
-    border: 0.5px solid currentColor;
-    opacity: 0.85;
-  }
-  .aud-eu  { color: #0C447C; background: #E6F1FB; border-color: #AACBEE; }
-  .aud-si  { color: #27500A; background: #EAF3DE; border-color: #A8CE7A; }
-  .aud-di  { color: #633806; background: #FAEEDA; border-color: #FAC775; }
-  .aud-re  { color: #72243E; background: #FBEAF0; border-color: #F5AFC9; }
-  .aud-blank { color: #A8A49E; background: #F1EFE8; border-color: #D3D1C7; min-width: 28px; text-align: center; }
   .act-item-body { flex: 1; min-width: 0; }
   .act-item-text { color: var(--text-primary); font-size: 12px; line-height: 1.5; }
   .act-item-sub { color: var(--text-tertiary); font-size: 11px; margin-top: 1px; }
+  .act-empty { color: var(--text-tertiary); font-style: italic; font-size: 12px; }
   .act-hr { padding: 8px 14px; font-size: 12px; color: var(--text-secondary); border-top: 1px solid var(--border); display: flex; gap: 8px; align-items: baseline; }
   .act-hr-label { font-size: 11px; font-weight: 500; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; flex-shrink: 0; }
   .act-empty { color: var(--text-tertiary); font-style: italic; }
@@ -393,32 +392,36 @@ function showPage(i) {
 }
 
 // ── Render activity items ──
-const AUDIENCE_MAP = {
-  'eu':   { label: 'EU',   cls: 'aud-eu'  },
-  'si':   { label: 'SI',   cls: 'aud-si'  },
-  'di':   { label: 'Dist', cls: 'aud-di'  },
-  're':   { label: 'Re',   cls: 'aud-re'  },
-};
-function audienceBadge(aud) {
-  if (!aud) return '<span class="act-audience aud-blank">—</span>';
-  const a = AUDIENCE_MAP[aud];
-  if (!a) return '<span class="act-audience aud-blank">—</span>';
-  return `<span class="act-audience ${a.cls}" title="${{'eu':'End User','si':'SI / ISV','di':'Distributor','re':'Reseller'}[aud]}">${a.label}</span>`;
-}
 function renderItems(items) {
   if (!items || items.length === 0) return '<span class="act-empty">—</span>';
   return items.map(item => `
     <div class="act-item">
-      <div class="act-item-left">
-        <span class="act-dot dot-${item.level || 'g'}"></span>
-        ${audienceBadge(item.audience)}
-      </div>
+      <span class="act-dot dot-${item.level || 'g'}"></span>
       <div class="act-item-body">
         <div class="act-item-text">${item.text}</div>
         ${item.sub ? `<div class="act-item-sub">${item.sub}</div>` : ''}
       </div>
     </div>
   `).join('');
+}
+
+// Filter items by audience
+function filterByAudience(items, aud) {
+  if (!items) return [];
+  return items.filter(item => item.audience === aud);
+}
+
+// Render matrix cell (filtered by audience)
+function renderMatrixCell(act, col, aud) {
+  const colMap = {
+    'presales': act.presales,
+    'factory':  act.factory,
+    'pm_rd':    act.pm_rd,
+    'marketing': act.marketing,
+    'bdm_sales': act.bdm_sales,
+  };
+  const items = filterByAudience(colMap[col] || [], aud);
+  return renderItems(items);
 }
 
 // ── Build Org Chart ──
@@ -626,6 +629,13 @@ function buildPerf(data) {
 // ── Build Activity Board ──
 function buildActivity(data) {
   let html = '';
+  const COLS = ['presales','factory','pm_rd','marketing','bdm_sales'];
+  const AUDS = [
+    { key: 'eu',   label: 'End User',       cls: 'aud-eu-row'   },
+    { key: 'si',   label: 'SI / ISV',       cls: 'aud-si-row'   },
+    { key: 'aidc', label: 'AIDC Partner',   cls: 'aud-aidc-row' },
+  ];
+
   data.regions.forEach(r => {
     const act = r.activity;
     const hasContent =
@@ -644,17 +654,20 @@ function buildActivity(data) {
           </div>
           <span class="risk ${hasContent ? 'risk-g' : 'risk-g'}" style="opacity:${hasContent ? 1 : 0.4};">Active</span>
         </div>
-        <div class="act-cols">
+        <div class="act-matrix">
+          <!-- Corner + Column headers -->
+          <div class="act-col-header" style="background:var(--surface2);border-bottom:1px solid var(--border);"></div>
           <div class="act-col-header">Pre-Sales / Testing</div>
           <div class="act-col-header">Sales Admin / Factory</div>
           <div class="act-col-header">PM / RD</div>
           <div class="act-col-header">Marketing</div>
           <div class="act-col-header">BDM Sales</div>
-          <div class="act-cell">${renderItems(act.presales)}</div>
-          <div class="act-cell">${renderItems(act.factory)}</div>
-          <div class="act-cell">${renderItems(act.pm_rd)}</div>
-          <div class="act-cell">${renderItems(act.marketing)}</div>
-          <div class="act-cell">${renderItems(act.bdm_sales)}</div>
+          ${AUDS.map(aud => `
+            <div class="act-row-header ${aud.cls}">${aud.label}</div>
+            ${COLS.map(col => `
+              <div class="act-cell ${aud.cls}">${renderMatrixCell(act, col, aud.key)}</div>
+            `).join('')}
+          `).join('')}
         </div>
         <div class="act-hr">
           <span class="act-hr-label">HR</span>
