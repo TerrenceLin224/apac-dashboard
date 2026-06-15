@@ -127,6 +127,160 @@
       "activity": {
         "projects": [
           {
+            "level": "r",
+            "project": "Maruti Suzuki 硬體損壞 RCA",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "槍把 / 4SBC Pogo Pin 頻繁損壞；提供故障率 / 照片 / 影片給總部",
+            "pm_rd": "RCA 報告待產出；總部認為問題尚未完全解決",
+            "rma": "4SBC 連接器備品急需補充（已用 100~200個）",
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Hero MotoCorp 2506 HD x3000",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "進入定價階段，提交競爭性報價；申請新 SKU（含電池認證）",
+            "cxs": "測試完成，運作良好（競爭：Datalogic）",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Panasonic Beta 韌體問題",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "安排 R&D Con-call 即時診斷；收集斷線 log 觀察報告",
+            "pm_rd": "Real-time diagnosis 取代反覆寄送 Beta 韌體；問題多發於第二廠區約 30台",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Highlex RK95 MDM 統一方案",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "Vijay 申請 RemoCloud Express Trial License；RK95 POC 測試",
+            "pm_rd": "RK96 韌體 7月底才就緒，現階段以 RK95 為主；報告需明確標示使用客戶應用程式測試",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Quantum Paper A4 OCR 發票辨識",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "提供更多專案資訊給總部評估",
+            "cxs": null,
+            "pm_rd": "評估合適硬體與 OCR 解決方案（現有設備螢幕較小）",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "NIQ Algeria",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "流程複雜卡關，由 Ellie 協助處理",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Honda Motors SPR",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "申請含相機功能標準 SKU SPR，應對競爭",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Tata Motors SPR x100",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "重新申請 SPR（上次報價過低錯失訂單）",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Bigbasket SKU + SPR",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "建立 SKU 並申請 SPR",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "背蓋 Back Cover 出貨",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "與 Sunny 確認是否能先小批量 100~150個出貨應急",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": "6月底~7月初 2000個出貨"
+          },
+          {
+            "level": "y",
+            "project": "5500 掃描引擎問題",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "PM Hank + Zebra 後續分析中，狀況在掌控中",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Software Trigger OTA（Siebel）",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "功能已準備好，待 OTA 其他問題修正後發布",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "RK96 小批量測試出貨",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": "Alan 發信給 Terrence，本月出貨含 10~30台 RK96"
+          },
+          {
+            "level": "y",
+            "project": "印度庫存控制",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "6月 Sales Out 目標 180K~200K；6月底非 RS10 庫存降至 300K~350K",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
             "level": "y",
             "project": "Seabird SDK 整合",
             "partner": "si",
@@ -160,6 +314,39 @@
             "factory": null
           },
           {
+            "level": "r",
+            "project": "電池更換專案",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "Dhananjay 發信說明交期/SOP",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": "300顆，RMA核准192，Delmont調100",
+            "factory": "6月底完成"
+          },
+          {
+            "level": "g",
+            "project": "BMW India",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "客戶承辦人更換，暫時擱置",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "MobiWire 維修樣品",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": null,
+            "rma": "5件已修復，近期貨件寄回",
+            "factory": null
+          },
+          {
             "level": "g",
             "project": "Big Basket 潛在 x2500",
             "partner": "eu",
@@ -180,127 +367,6 @@
             "pm_rd": null,
             "rma": null,
             "factory": null
-          },
-          {
-            "level": "y",
-            "project": "Hero MotoCorp 2506 HD x3000",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": "進入商業定價談判，評估目標價格與總部討論",
-            "cxs": "測試運作良好，已從 1204 轉移至 2506 HD",
-            "pm_rd": null,
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "r",
-            "project": "Maruti Suzuki 硬體損壞 RCA",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": "待 RCA 後向客戶提交改善方案",
-            "cxs": "槍把 / 4SBC / Pogo Pin 頻繁損壞",
-            "pm_rd": "RCA 報告產出（HQ Alan）",
-            "rma": "槍把 / 4SBC / Pogo Pin",
-            "factory": "確認 4SBC 缺貨交期"
-          },
-          {
-            "level": "y",
-            "project": "Panasonic Beta 韌體問題",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": null,
-            "cxs": "客戶對反覆測試不滿",
-            "pm_rd": "安排 R&D 線上即時除錯，取代反覆寄送 Beta 韌體",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "Highlex RK95 MDM 統一方案",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": null,
-            "cxs": "Vijay 負責 RemoCloud Express PoC 測試",
-            "pm_rd": "待 RK96 新韌體發布後轉移",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "Quantum Paper A4 OCR 發票辨識",
-            "partner": "eu",
-            "vertical": "MFG",
-            "sales": null,
-            "cxs": "確認 2506 HD 是否滿足 A4 全頁 OCR 需求",
-            "pm_rd": "A4 全頁 OCR 可行性評估",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "背蓋 Back Cover 出貨",
-            "partner": "aidc",
-            "vertical": "—",
-            "sales": null,
-            "cxs": null,
-            "pm_rd": null,
-            "rma": null,
-            "factory": "6月底~7月初 2000個出貨；確認是否能提前 100~150個"
-          },
-          {
-            "level": "g",
-            "project": "主機板 Flash 問題",
-            "partner": "eu",
-            "vertical": "—",
-            "sales": null,
-            "cxs": null,
-            "pm_rd": "問題已解決，提供修復細節給印度團隊",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "5500 掃描引擎問題",
-            "partner": "eu",
-            "vertical": "—",
-            "sales": null,
-            "cxs": null,
-            "pm_rd": "PM Hank + Zebra 後續分析中",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "g",
-            "project": "Software Trigger OTA 更新",
-            "partner": "eu",
-            "vertical": "—",
-            "sales": null,
-            "cxs": null,
-            "pm_rd": "將包含在未來 OTA 更新中",
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "y",
-            "project": "印度庫存水位偏高",
-            "partner": "aidc",
-            "vertical": "—",
-            "sales": "專注推動 Sell-out 降低庫存壓力",
-            "cxs": null,
-            "pm_rd": null,
-            "rma": null,
-            "factory": null
-          },
-          {
-            "level": "r",
-            "project": "電池更換專案",
-            "partner": "aidc",
-            "vertical": "—",
-            "sales": "Dhananjay 發信說明交期/SOP",
-            "cxs": null,
-            "pm_rd": null,
-            "rma": "300顆，RMA核准192，Delmont調100",
-            "factory": "6月底完成"
           }
         ],
         "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期"
@@ -618,7 +684,107 @@
         "gm_last_month": null
       },
       "activity": {
-        "projects": [],
+        "projects": [
+          {
+            "level": "r",
+            "project": "IS307 汽車專案 JEITA 測試報告",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "向 Allen/Joseph 催 JEITA 測試數據，本週五截止",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "A14 料號開通（USB Snap-on / Simple Package / JP OS）",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "PM 協助開通缺失料號，追蹤 JP OS 需求",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "IS 客戶產品可販售時間回覆",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": "保守估計回覆 Q3 底（9~10月）",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "RS38 行銷簡報通用版",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "整理 RS38 PPT，刪除黑貓/Yamato 客戶名稱，製作標準通用版",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "RS38J 日本認證費用評估（62萬）",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "精算損益平衡台數，向總部回報備案計畫；考量轉向 6690 機種",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "SATO Global KA 說明會（7月）",
+            "partner": "aidc",
+            "vertical": "T&L",
+            "sales": "準備 AK26/RS38/OCR 說明會；備註：確認總部與當地業務主管計畫",
+            "cxs": null,
+            "pm_rd": "OCR 軟體 7月才開發完成，暫勿向地方分公司過度推廣；與 HDJ 確認 Highway 系統對接",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "讀頭角度規格確認（70度 vs 10度）",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": "確認客戶需求，勿錯誤申請 10度規格（替代 Casio）",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Wi-Fi 版電子圍欄功能限制確認",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": "確認純 Wi-Fi 是否滿足客戶室內定位需求",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "蒙古/柬埔寨/沙烏地 無認證市場對策",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "建議客戶當地購買或推薦當地代理商處理",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          }
+        ],
         "hr": ""
       }
     }
