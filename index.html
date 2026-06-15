@@ -242,27 +242,36 @@
     vertical-align: top;
   }
   .act-cell:not(:last-child) { border-right: 1px solid var(--border); }
-  /* ── Activity Matrix ── */
-  .act-matrix { display: grid; grid-template-columns: 110px repeat(5, 1fr); border-top: 1px solid var(--border); }
-  .act-col-header { font-size: 11px; font-weight: 500; color: var(--text-secondary); padding: 8px 12px; background: var(--surface2); border-bottom: 1px solid var(--border); letter-spacing: 0.03em; text-transform: uppercase; border-right: 1px solid var(--border); }
-  .act-row-header { font-size: 11px; font-weight: 500; padding: 10px 8px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: center; text-align: center; }
-  .act-row-header.aud-eu-row   { color: #0C447C; background: #F0F6FD; }
-  .act-row-header.aud-si-row   { color: #27500A; background: #F3F9EA; }
-  .act-row-header.aud-aidc-row { color: #633806; background: #FDF5EA; }
-  .act-cell { padding: 10px 12px; font-size: 12px; color: var(--text-secondary); min-height: 70px; line-height: 1.6; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-  .act-cell.aud-eu-row   { background: #FAFCFF; }
-  .act-cell.aud-si-row   { background: #FAFDF6; }
-  .act-cell.aud-aidc-row { background: #FFFDF8; }
-  .act-item { display: flex; gap: 6px; margin-bottom: 7px; align-items: flex-start; }
-  .act-item:last-child { margin-bottom: 0; }
-  .act-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; margin-top: 4px; }
+  /* ── Activity Project Table ── */
+  .act-proj-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .act-proj-table th {
+    background: var(--surface2); color: var(--text-secondary);
+    font-size: 11px; font-weight: 500; text-transform: uppercase;
+    letter-spacing: 0.04em; padding: 8px 10px;
+    border: 1px solid var(--border); text-align: left;
+    white-space: nowrap;
+  }
+  .act-proj-table td {
+    padding: 9px 10px; border: 1px solid var(--border);
+    vertical-align: top; line-height: 1.5; color: var(--text-primary);
+  }
+  .act-proj-table tr:nth-child(even) td { background: #FAFAF8; }
+  .act-proj-table tr:hover td { background: #F5F4F0; }
+  .td-empty { color: var(--text-tertiary) !important; }
+  .td-name { font-weight: 500; min-width: 120px; }
+  .td-partner { white-space: nowrap; }
+  .td-vertical { white-space: nowrap; }
+  .td-content { min-width: 100px; font-size: 12px; }
+  .priority-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .dot-r { background: #E24B4A; }
   .dot-y { background: #EF9F27; }
   .dot-g { background: #639922; }
-  .act-item-body { flex: 1; min-width: 0; }
-  .act-item-text { color: var(--text-primary); font-size: 12px; line-height: 1.5; }
-  .act-item-sub { color: var(--text-tertiary); font-size: 11px; margin-top: 1px; }
-  .act-empty { color: var(--text-tertiary); font-style: italic; font-size: 12px; }
+  .partner-badge { font-size: 11px; font-weight: 500; padding: 1px 7px; border-radius: 100px; display: inline-block; white-space: nowrap; }
+  .pb-eu   { background: #E6F1FB; color: #0C447C; }
+  .pb-si   { background: #EAF3DE; color: #27500A; }
+  .pb-aidc { background: #FAEEDA; color: #633806; }
+  .pb-tbd  { background: #F1EFE8; color: #6B6860; }
+  .act-region-wrap { margin-bottom: 20px; }
   .act-hr { padding: 8px 14px; font-size: 12px; color: var(--text-secondary); border-top: 1px solid var(--border); display: flex; gap: 8px; align-items: baseline; }
   .act-hr-label { font-size: 11px; font-weight: 500; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; flex-shrink: 0; }
   .act-empty { color: var(--text-tertiary); font-style: italic; }
@@ -391,37 +400,56 @@ function showPage(i) {
   document.querySelectorAll('.tab-btn').forEach((t, j) => t.classList.toggle('active', i === j));
 }
 
-// ── Render activity items ──
-function renderItems(items) {
-  if (!items || items.length === 0) return '<span class="act-empty">—</span>';
-  return items.map(item => `
-    <div class="act-item">
-      <span class="act-dot dot-${item.level || 'g'}"></span>
-      <div class="act-item-body">
-        <div class="act-item-text">${item.text}</div>
-        ${item.sub ? `<div class="act-item-sub">${item.sub}</div>` : ''}
-      </div>
-    </div>
+// ── Render project table ──
+function partnerBadge(p) {
+  if (!p) return '<span class="partner-badge pb-tbd">TBD</span>';
+  const map = { eu: ['End User','pb-eu'], si: ['SI/ISV','pb-si'], aidc: ['AIDC Partner','pb-aidc'] };
+  const [label, cls] = map[p] || [p, 'pb-tbd'];
+  return `<span class="partner-badge ${cls}">${label}</span>`;
+}
+function tdVal(v) {
+  return v ? `<td class="td-content">${v}</td>`
+           : `<td class="td-content td-empty">—</td>`;
+}
+function renderProjectTable(projects) {
+  if (!projects || projects.length === 0) {
+    return '<p style="color:var(--text-tertiary);font-size:12px;padding:12px 0;">—</p>';
+  }
+  const rows = projects.map((p, i) => `
+    <tr>
+      <td style="text-align:center;width:28px;">
+        <span class="priority-dot dot-${p.level || 'g'}"></span>
+      </td>
+      <td style="text-align:center;width:28px;color:var(--text-tertiary);font-size:11px;">${i+1}</td>
+      <td class="td-name">${p.project}</td>
+      <td class="td-partner">${partnerBadge(p.partner)}</td>
+      <td class="td-vertical" style="color:var(--text-secondary);font-size:11px;">${p.vertical || '—'}</td>
+      ${tdVal(p.sales)}
+      ${tdVal(p.cxs)}
+      ${tdVal(p.pm_rd)}
+      ${tdVal(p.rma)}
+      ${tdVal(p.factory)}
+    </tr>
   `).join('');
-}
-
-// Filter items by audience
-function filterByAudience(items, aud) {
-  if (!items) return [];
-  return items.filter(item => item.audience === aud);
-}
-
-// Render matrix cell (filtered by audience)
-function renderMatrixCell(act, col, aud) {
-  const colMap = {
-    'presales': act.presales,
-    'factory':  act.factory,
-    'pm_rd':    act.pm_rd,
-    'marketing': act.marketing,
-    'bdm_sales': act.bdm_sales,
-  };
-  const items = filterByAudience(colMap[col] || [], aud);
-  return renderItems(items);
+  return `
+    <table class="act-proj-table">
+      <thead>
+        <tr>
+          <th style="width:28px;"></th>
+          <th style="width:28px;">#</th>
+          <th>Project / Client</th>
+          <th>Partner</th>
+          <th>Vertical</th>
+          <th>Sales</th>
+          <th>CXS</th>
+          <th>PM / RD</th>
+          <th>RMA</th>
+          <th>Factory</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
 }
 
 // ── Build Org Chart ──
@@ -629,24 +657,13 @@ function buildPerf(data) {
 // ── Build Activity Board ──
 function buildActivity(data) {
   let html = '';
-  const COLS = ['presales','factory','pm_rd','marketing','bdm_sales'];
-  const AUDS = [
-    { key: 'eu',   label: 'End User',       cls: 'aud-eu-row'   },
-    { key: 'si',   label: 'SI / ISV',       cls: 'aud-si-row'   },
-    { key: 'aidc', label: 'AIDC Partner',   cls: 'aud-aidc-row' },
-  ];
 
   data.regions.forEach(r => {
-    const act = r.activity;
-    const hasContent =
-      (act.presales && act.presales.length > 0) ||
-      (act.factory && act.factory.length > 0) ||
-      (act.pm_rd && act.pm_rd.length > 0) ||
-      (act.marketing && act.marketing.length > 0) ||
-      (act.bdm_sales && act.bdm_sales.length > 0);
+    const projects = r.activity.projects || [];
+    const hasContent = projects.length > 0;
 
     html += `
-      <div class="act-region">
+      <div class="act-region act-region-wrap">
         <div class="act-region-header">
           <div>
             <span class="act-region-title">${r.name}</span>
@@ -654,20 +671,8 @@ function buildActivity(data) {
           </div>
           <span class="risk ${hasContent ? 'risk-g' : 'risk-g'}" style="opacity:${hasContent ? 1 : 0.4};">Active</span>
         </div>
-        <div class="act-matrix">
-          <!-- Corner + Column headers -->
-          <div class="act-col-header" style="background:var(--surface2);border-bottom:1px solid var(--border);"></div>
-          <div class="act-col-header">Pre-Sales / Testing</div>
-          <div class="act-col-header">Sales Admin / Factory</div>
-          <div class="act-col-header">PM / RD</div>
-          <div class="act-col-header">Marketing</div>
-          <div class="act-col-header">BDM Sales</div>
-          ${AUDS.map(aud => `
-            <div class="act-row-header ${aud.cls}">${aud.label}</div>
-            ${COLS.map(col => `
-              <div class="act-cell ${aud.cls}">${renderMatrixCell(act, col, aud.key)}</div>
-            `).join('')}
-          `).join('')}
+        <div style="padding:0;">
+          ${renderProjectTable(projects)}
         </div>
         <div class="act-hr">
           <span class="act-hr-label">HR</span>

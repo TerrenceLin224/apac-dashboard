@@ -125,91 +125,127 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [
+        "projects": [
           {
             "level": "y",
-            "text": "Seabird SDK 支援缺口 — 需在系統建立 Case",
-            "sub": "印度業務團隊 — 讓技術團隊接手處理",
-            "audience": "si"
-          }
-        ],
-        "factory": [
-          {
-            "level": "y",
-            "text": "Samsung 1264 x80台採購（首批22台）— 確認是否能 6月底交貨",
-            "sub": "印度業務團隊 · Due: 2026-06-30",
-            "audience": "eu"
-          }
-        ],
-        "pm_rd": [
+            "project": "Seabird SDK 整合",
+            "partner": "si",
+            "vertical": "—",
+            "sales": "需在系統建立 Case",
+            "cxs": null,
+            "pm_rd": "SDK 支援缺口",
+            "rma": null,
+            "factory": null
+          },
           {
             "level": "r",
-            "text": "Maruti Suzuki Pogo Pin 損壞 — 300件 / 2200台，需 RCA 與改善報告",
-            "sub": "技術與研發團隊 — 上線半年內累積 300 件",
-            "audience": "eu"
+            "project": "Maruti Suzuki Pogo Pin",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "300件損壞 / 2200台",
+            "pm_rd": "RCA 報告與改善對策",
+            "rma": "300件 Pogo Pin",
+            "factory": null
           },
           {
             "level": "y",
-            "text": "Panasonic Haridwar RS36 Wi-Fi/LTE 斷線 — 新 Firmware 2台觀察中",
-            "sub": "技術團隊 — 疑為網路卡異常，觀察 2-3 天",
-            "audience": "eu"
+            "project": "Panasonic Haridwar RS36",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "2台韌體更新觀察 2-3 天",
+            "pm_rd": "疑為網路卡異常",
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "Super K RS10 自動關機 — 暫停換板，送中國廠區深度分析並產出報告",
-            "sub": "技術與研發團隊 — 泰國端類似異常一併追蹤",
-            "audience": "eu"
+            "project": "Super K RS10 自動關機",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "送中國廠區深度分析並產出報告",
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "槍把黃色扳機單獨更換可行性 — 確認技術可行性、報價方式並提供樣品",
-            "sub": "技術與研發團隊 — 2-pin 接頭單獨更換，降低維修成本",
-            "audience": "eu"
-          }
-        ],
-        "marketing": [],
-        "bdm_sales": [
+            "project": "槍把黃色扳機換件",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "確認技術可行性、報價方式並提供樣品",
+            "rma": null,
+            "factory": null
+          },
           {
             "level": "r",
-            "text": "電池更換專案 — 300顆需求，RMA核准192顆，Delmont調撥100顆，6月底完成",
-            "sub": "Dhananjay · Due: 2026-06-30 — 需發信說明交期 / 時程 / SOP",
-            "audience": "aidc"
+            "project": "電池更換專案",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "Dhananjay 發信說明交期/SOP",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": "300顆，RMA核准192，Delmont調100",
+            "factory": "6月底完成"
           },
           {
             "level": "y",
-            "text": "Hero MotoCorp — 等待 2506 HD 測試設備，本週五拜訪",
-            "sub": "印度業務團隊 · Due: 2026-05-30 — 競爭：Zebra / Datalogic",
-            "audience": "eu"
+            "project": "Hero MotoCorp 2506 HD",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "本週五拜訪，競爭：Zebra/Datalogic",
+            "cxs": "等待測試設備",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "Samsung 1264 x80台 — 確認 6月底交期",
-            "sub": "印度業務團隊 · Due: 2026-06-30",
-            "audience": "eu"
+            "project": "Samsung 1264 x80台",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "確認 6月底交期",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": "首批22台，後續30台"
           },
           {
             "level": "y",
-            "text": "Tata Electronics 1000台 RS36 Wi-Fi — 安排測試展示",
-            "sub": "印度業務團隊 — 潛在大案",
-            "audience": "eu"
-          },
-          {
-            "level": "y",
-            "text": "槍把黃色扳機技術可行性報告 + 報價方式",
-            "sub": "技術與研發團隊 — 確認後提供報價",
-            "audience": "eu"
+            "project": "Tata Electronics RS36 x1000",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "安排測試展示",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "g",
-            "text": "Big Basket — 潛在 2500台，持續跟進",
-            "sub": "印度業務團隊",
-            "audience": "eu"
+            "project": "Big Basket 潛在 x2500",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "持續跟進",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "g",
-            "text": "Bata x20 / Quantum Paper x7-8 小批量測試",
-            "sub": "印度業務團隊 — 持續進行中",
-            "audience": "eu"
+            "project": "Bata x20 / Quantum Paper x7-8",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "小批量測試進行中",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           }
         ],
         "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期 · 下週因 Computex 例行會議暫停一次"
@@ -232,164 +268,237 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [
+        "projects": [
           {
             "level": "y",
-            "text": "Fisher & Paykel OCR — 客戶僅能提供照片，等待 OCR 團隊評估",
-            "sub": "OCR 團隊審查中",
-            "audience": "eu"
+            "project": "Fisher & Paykel OCR",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "等待 OCR 團隊評估照片可行性",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "Arçelik (Hitachi) RemoCloud 無法註冊 & 設定檔未更新 — 已派強制同步指令，持續監控",
-            "sub": "技術支援團隊 — Google 伺服器同步時間差",
-            "audience": "eu"
+            "project": "Arçelik (Hitachi) RemoCloud",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": null,
+            "cxs": "已派強制同步指令，持續監控",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "g",
-            "text": "Thai Japan Gas AK26 過充 — 確認單一個案，已結案",
-            "sub": "客戶已自行換電池",
-            "audience": "eu"
+            "project": "Thai Japan Gas AK26 過充",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "已結案 — 單一個案",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "⚠️ [未解決] RK26 TE 無法修復（ESC / Cluster Stack / 自動斷線）",
-            "sub": "Aloun — 影響 CJ Express 專案",
-            "audience": "eu"
+            "project": "RK26 TE 問題（CJ Express）⚠️",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "ESC/Cluster Stack/斷線無法修復",
+            "pm_rd": "Velocity 軟體定價與 OEM 討論",
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "⚠️ [未解決] High Japan Gas RK26 — 無法充電 & 觸控異常",
-            "sub": "Pre-sales Sanong — 現場電表測量",
-            "audience": "eu"
+            "project": "High Japan Gas RK26 充電/觸控異常 ⚠️",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "現場電表測量 + 錄影對照",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "⚠️ [未解決] Adidas 倉庫 OCR 技術驗證進行中",
-            "sub": "Pre-sales Sanong — OCR vs QR Code 待釐清",
-            "audience": "si"
-          }
-        ],
-        "factory": [
-          {
-            "level": "r",
-            "text": "Toyota RS10 — 300組背蓋與電源鍵，6月底前出貨",
-            "sub": "總部/工廠端 · Due: 2026-06-30",
-            "audience": "eu"
-          },
-          {
-            "level": "y",
-            "text": "CipherLab 瀏覽器授權到期 — 需重新申請並展延授權",
-            "sub": "SW PM/RD — 受影響客戶待確認",
-            "audience": "eu"
-          },
-          {
-            "level": "g",
-            "text": "IDM 庫存水位 — 886台，本月 Sell-out 約 200台",
-            "sub": "IDM 團隊確認本週到貨",
-            "audience": "aidc"
-          },
-          {
-            "level": "y",
-            "text": "⚠️ [未解決] 電池規格變更 3000→3300 mAh — 代理商重新申請認證",
-            "sub": "⚠️ 負責人待指定 — 約需 2–3 個月",
-            "audience": "aidc"
-          }
-        ],
-        "pm_rd": [
-          {
-            "level": "g",
-            "text": "Toyota RS10 根本原因確認 — FPC 排線瑕疵（9月前批次）已釐清",
-            "sub": "已確認",
-            "audience": "eu"
-          },
-          {
-            "level": "g",
-            "text": "CJ Express OTA 韌體 — 6月初已發布，速度問題已解決",
-            "sub": "已完成",
-            "audience": "eu"
-          },
-          {
-            "level": "y",
-            "text": "AAT Ford Phase 1 新增項目 — 等待線上會議確認最終報價",
-            "sub": "Terrence 安排線上會議",
-            "audience": "eu"
+            "project": "Adidas 倉庫 OCR 驗證 ⚠️",
+            "partner": "si",
+            "vertical": "T&L",
+            "sales": "Sunny 負責後續安裝跟進",
+            "cxs": "OCR vs QR Code 待釐清",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "r",
-            "text": "⚠️ [未解決] RK26 CJ Express 軟體定價 — Velocity 價格支援",
-            "sub": "HQ Terrence 與 OEM 討論",
-            "audience": "si"
+            "project": "Toyota RS10 背蓋換件",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "FPC 排線瑕疵已確認",
+            "rma": "300組背蓋與電源鍵",
+            "factory": "6月底前出貨"
           },
           {
             "level": "y",
-            "text": "⚠️ [未解決] Zebra 掃描引擎 — 等待 Root Cause Analysis",
-            "sub": "PM Hank 追蹤 RCA 與交期",
-            "audience": "aidc"
+            "project": "CipherLab 瀏覽器授權到期",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "SW PM/RD — 受影響客戶待確認",
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "⚠️ [未解決] MHI 2564 掃描器連線異常",
-            "sub": "Vincent Huang 確認中",
-            "audience": "eu"
-          }
-        ],
-        "marketing": [
-          {
-            "level": "y",
-            "text": "IDM 經銷商研討會 — 籌備中，無額外費用，待 IDM 確認日期",
-            "sub": "IDM 團隊確認舉辦時間",
-            "audience": "aidc"
-          }
-        ],
-        "bdm_sales": [
-          {
-            "level": "y",
-            "text": "Central 專案 — PO 70台已收，50台確認中，本週安裝",
-            "sub": "Sunny",
-            "audience": "eu"
-          },
-          {
-            "level": "y",
-            "text": "Adidas — 已發信，Sunny 負責後續安裝",
-            "sub": "Sunny",
-            "audience": "si"
-          },
-          {
-            "level": "y",
-            "text": "Ajinomoto — 目標預算 $10,000，Terrence 接手價格談判",
-            "sub": "Terrence",
-            "audience": "eu"
-          },
-          {
-            "level": "y",
-            "text": "曼谷垃圾車專案 (BKK Trash) — 負責長官異動，進度延宕",
-            "sub": "泰國業務團隊持續追蹤",
-            "audience": "eu"
+            "project": "電池規格變更認證 ⚠️",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": "代理商重新申請認證，負責人待指定"
           },
           {
             "level": "g",
-            "text": "CJ / Watson RS20 — 4台 Demo unit 已備妥，客戶明年評估轉換",
-            "sub": "泰國業務團隊",
-            "audience": "eu"
+            "project": "CJ Express OTA 韌體",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "6月初已發布，速度問題已解決",
+            "rma": null,
+            "factory": null
           },
           {
             "level": "y",
-            "text": "⚠️ [未解決] American Standard — 把握度 90%，等待 PO",
-            "sub": "泰國業務團隊",
-            "audience": "eu"
+            "project": "AAT Ford Phase 1 報價",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "Terrence 安排線上會議確認最終報價",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Zebra 掃描引擎 RCA ⚠️",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "PM Hank 追蹤 RCA 與交期",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "MHI 2564 連線異常 ⚠️",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "Vincent Huang 確認中",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Central 專案安裝",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "PO 70台已收，50台確認中，本週安裝",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Ajinomoto 報價談判",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "Terrence 接手，目標預算 $10,000",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "曼谷垃圾車 (BKK Trash)",
+            "partner": "eu",
+            "vertical": "Government",
+            "sales": "負責長官異動，進度延宕",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "g",
-            "text": "⚠️ [未解決] RS38 RFID V2 修復完成 — 7月里程碑",
-            "sub": "Due: 2026-07-01",
-            "audience": "eu"
+            "project": "CJ/Watson RS20 Demo",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "4台 Demo unit 已備妥，客戶明年評估",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "American Standard ⚠️",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "把握度 90%，等待 PO",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           },
           {
             "level": "g",
-            "text": "⚠️ [未解決] Zueiling Pharma — 預計 7 月結案",
-            "sub": "Due: 2026-07-31",
-            "audience": "eu"
+            "project": "RS38 RFID V2 ⚠️",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "7月里程碑，20個潛在專案",
+            "cxs": null,
+            "pm_rd": "V2 Bug 修復完成",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "Zueiling Pharma ⚠️",
+            "partner": "eu",
+            "vertical": "Healthcare",
+            "sales": "預計 7 月結案",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "IDM 經銷商研討會",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": "待 IDM 確認日期，無額外費用",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           }
         ],
         "hr": ""
@@ -412,10 +521,7 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [],
-        "factory": [],
-        "pm_rd": [],
-        "marketing": [],
+        "projects": [],
         "hr": ""
       }
     },
@@ -436,10 +542,7 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [],
-        "factory": [],
-        "pm_rd": [],
-        "marketing": [],
+        "projects": [],
         "hr": ""
       }
     },
@@ -460,10 +563,7 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [],
-        "factory": [],
-        "pm_rd": [],
-        "marketing": [],
+        "projects": [],
         "hr": ""
       }
     }
