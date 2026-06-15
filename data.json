@@ -101,10 +101,63 @@
         "gm_last_month": null
       },
       "activity": {
-        "presales": [],
-        "factory": [],
-        "pm_rd": [],
-        "marketing": [],
+        "projects": [
+          {
+            "level": "y",
+            "project": "台積電 RS38 軟體測試（無相機版）",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "Sean 聯繫 PM-Chris 追蹤處理",
+            "pm_rd": "全項目軟體測試進行中",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "中華航空逃生背心 RS38 UHF",
+            "partner": "si",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "Chloe 交付 RS38 + UHF GUN 後，Sean 更新設備並寄送 SI 經銷商",
+            "pm_rd": "追蹤 API 及使用方式",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "紘聖 Sample Code 提供",
+            "partner": "si",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "CXS 團隊提供開發用 Sample Code 供客戶測試",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "全家 Signkey 網頁維護",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": null,
+            "cxs": "Signkey 為多專案共用，維護需事先規劃配套避免影響其他專案",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "貼牌手持式 Scanner 配套工具",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": "Sean 確認 PM 是否有 ScanMaster 對應方案",
+            "pm_rd": "確認配套工具方案（ScanMaster）",
+            "rma": null,
+            "factory": null
+          }
+        ],
         "hr": ""
       }
     },
