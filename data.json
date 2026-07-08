@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-15",
+    "last_updated": "2026-07-07",
     "gp_rate": 0.257,
     "currency": "USD",
     "exchange_rate_note": "NTD 30 / USD"
@@ -181,13 +181,13 @@
         "projects": [
           {
             "level": "r",
-            "project": "Maruti Suzuki 硬體損壞 RCA",
+            "project": "MSIL (Maruti Suzuki) RMA — Pogo Pin / RK95 4SBC",
             "partner": "eu",
             "vertical": "MFG",
             "sales": null,
-            "cxs": "槍把 / 4SBC Pogo Pin 頻繁損壞；提供故障率 / 照片 / 影片給總部",
-            "pm_rd": "RCA 報告待產出；總部認為問題尚未完全解決",
-            "rma": "4SBC 連接器備品急需補充（已用 100~200個）",
+            "cxs": "提供 CL RMA 程序給 Bijay / Sunny",
+            "pm_rd": "RK26 Android 14 升級不支援官方技術說明信",
+            "rma": "RK95 4SBC 零件出貨；POGO PIN ONLY on MSIL；DELMON 填寫 RMA",
             "factory": null
           },
           {
@@ -203,23 +203,23 @@
           },
           {
             "level": "y",
-            "project": "Panasonic Beta 韌體問題",
+            "project": "Panasonic RS36U Beta 韌體測試",
             "partner": "eu",
             "vertical": "MFG",
             "sales": null,
-            "cxs": "安排 R&D Con-call 即時診斷；收集斷線 log 觀察報告",
-            "pm_rd": "Real-time diagnosis 取代反覆寄送 Beta 韌體；問題多發於第二廠區約 30台",
+            "cxs": "Bijay 發通知 Email 給 Holistic 關閉 Ticket，CC Panasonic",
+            "pm_rd": "HQ 安排 OTA 正式版處理此問題",
             "rma": null,
             "factory": null
           },
           {
             "level": "y",
-            "project": "Highlex RK95 MDM 統一方案",
+            "project": "Hilex RemoCloud Express POC 測試",
             "partner": "eu",
             "vertical": "MFG",
             "sales": null,
-            "cxs": "Vijay 申請 RemoCloud Express Trial License；RK95 POC 測試",
-            "pm_rd": "RK96 韌體 7月底才就緒，現階段以 RK95 為主；報告需明確標示使用客戶應用程式測試",
+            "cxs": "提供 Hilex 使用的應用程式資訊",
+            "pm_rd": "Vijay 申請 Trial License",
             "rma": null,
             "factory": null
           },
@@ -335,12 +335,12 @@
           },
           {
             "level": "y",
-            "project": "Seabird SDK 整合",
+            "project": "Seabird RS10 SDK — Software Trigger via Intent",
             "partner": "si",
             "vertical": "—",
-            "sales": "需在系統建立 Case",
-            "cxs": null,
-            "pm_rd": "SDK 支援缺口",
+            "sales": null,
+            "cxs": "等待客戶下週回覆",
+            "pm_rd": "SDK 整合 Intent 觸發",
             "rma": null,
             "factory": null
           },
@@ -420,6 +420,61 @@
             "pm_rd": null,
             "rma": null,
             "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Yokohama RK25 4SBC Cover Replacement",
+            "partner": "si",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": null,
+            "rma": "7/7 已到 Delmon；Codenext 拜訪 Gujarat",
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "CEAT 42Gears MDM — Disable Clipboard in Chrome",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": "Aloun 開始測試 MDM；Peter Lin 借出帳號",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Delmon RS10 Power Button FPC Rework",
+            "partner": "aidc",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": "Sunny 準備 300片 FPC 包裹；DJ 協調 Eva/Christine"
+          },
+          {
+            "level": "r",
+            "project": "Delmon Flipkart RS36 SureMDM Random Factory Reset x250",
+            "partner": "aidc",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "Bijay 現場拜訪；SureFox 確認",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "CEAT 2504 Presentation Mode Issue",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "Technical / RMA team 分開處理",
+            "rma": "RMA team 負責",
+            "factory": null
           }
         ],
         "hr": "Ashmuk 即將離職，DJ 等人接手；未來 2-3 週業務過渡期"
@@ -445,35 +500,35 @@
         "projects": [
           {
             "level": "y",
-            "project": "Fisher & Paykel OCR",
+            "project": "Fisher & Paykel 感應爐 OCR — 待客戶決定",
             "partner": "eu",
             "vertical": "MFG",
             "sales": null,
-            "cxs": "等待 OCR 團隊評估照片可行性",
+            "cxs": "等待客戶決定報價",
             "pm_rd": null,
             "rma": null,
             "factory": null
           },
           {
             "level": "y",
-            "project": "Arçelik (Hitachi) RemoCloud",
+            "project": "Arçelik CEB Scripts Issue — Focus Field",
             "partner": "eu",
             "vertical": "Retail",
             "sales": null,
-            "cxs": "已派強制同步指令，持續監控",
+            "cxs": "Sanong 上週已轉交 IT，本週確認進度",
             "pm_rd": null,
             "rma": null,
             "factory": null
           },
           {
-            "level": "g",
-            "project": "Thai Japan Gas AK26 過充",
+            "level": "y",
+            "project": "Thai Japan Gas RK25 過充 — Sensor Issue，需送修",
             "partner": "eu",
             "vertical": "MFG",
             "sales": null,
-            "cxs": "已結案 — 單一個案",
+            "cxs": "Sensor 問題，需送修",
             "pm_rd": null,
-            "rma": null,
+            "rma": "送修",
             "factory": null
           },
           {
@@ -500,25 +555,25 @@
           },
           {
             "level": "y",
-            "project": "Adidas 倉庫 OCR 驗證 ⚠️",
+            "project": "MAERSK (Adidas) OCR 規格驗證",
             "partner": "si",
             "vertical": "T&L",
-            "sales": "Sunny 負責後續安裝跟進",
-            "cxs": "OCR vs QR Code 待釐清",
+            "sales": null,
+            "cxs": "持續驗證 OCR 規格與需求",
             "pm_rd": null,
             "rma": null,
             "factory": null
           },
           {
-            "level": "r",
-            "project": "Toyota RS10 背蓋換件",
+            "level": "y",
+            "project": "Toyota RS10 FPC Rework + Back Cover",
             "partner": "eu",
             "vertical": "MFG",
             "sales": null,
             "cxs": null,
-            "pm_rd": "FPC 排線瑕疵已確認",
-            "rma": "300組背蓋與電源鍵",
-            "factory": "6月底前出貨"
+            "pm_rd": null,
+            "rma": null,
+            "factory": "FPC Rework 300片含在 7/17 出貨；Back Cover 可靠性無 End User 回報"
           },
           {
             "level": "y",
@@ -555,12 +610,12 @@
           },
           {
             "level": "y",
-            "project": "AAT Ford Phase 1 報價",
+            "project": "AAT Ford OCR — Image to Text 測試",
             "partner": "eu",
             "vertical": "MFG",
-            "sales": "Terrence 安排線上會議確認最終報價",
-            "cxs": null,
-            "pm_rd": null,
+            "sales": null,
+            "cxs": "待 Pablo 回覆新版本；準確率 100% 但速度較慢",
+            "pm_rd": "等新版本",
             "rma": null,
             "factory": null
           },
@@ -587,12 +642,12 @@
             "factory": null
           },
           {
-            "level": "y",
-            "project": "Central 專案安裝",
+            "level": "r",
+            "project": "Central RK26 TE Issue（ESC/Arrow Key/Cursor/Data Input）",
             "partner": "eu",
             "vertical": "Retail",
-            "sales": "PO 70台已收，50台確認中，本週安裝",
-            "cxs": null,
+            "sales": null,
+            "cxs": "4個問題待解決；Joseph 協助處理",
             "pm_rd": null,
             "rma": null,
             "factory": null
@@ -673,6 +728,50 @@
             "pm_rd": null,
             "rma": null,
             "factory": null
+          },
+          {
+            "level": "r",
+            "project": "BETAGO 1264 Driver Issue — PLC Siemens",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "確認台灣是否有 1564 庫存",
+            "cxs": "1264 無法安裝客戶 PLC，待解決",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Mith Phol RK95 Geofencing — RemoCloud Express",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "RemoCloud Express 開發中",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "OGA RK95 4850 Replacement",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "8/1 等官方 Email 確認；未使用掃描引擎寄回 HQ；其餘 OTA 升級",
+            "pm_rd": null,
+            "rma": "未使用掃描引擎寄回 HQ",
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "Sanong 1204 RS232 PIN / 1504A Baud Rate",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": "Aloun 已發 PIN Definition 給 Sanong 和 Mo",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
           }
         ],
         "hr": ""
@@ -695,7 +794,239 @@
         "gm_last_month": null
       },
       "activity": {
-        "projects": [],
+        "projects": [
+          {
+            "level": "y",
+            "project": "PEP RS38 Reader Issue",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "分 4 批與舊設備交換，48台全部換完後寄回 HQ",
+            "pm_rd": null,
+            "rma": "48台新設備已送 ICT",
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "GPK SOTI Deployment Issue",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "等待 SOTI 提供回覆；GPK 下週三回辦公室",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Fonterra SOTI WiFi Deployment Issue",
+            "partner": "si",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "SATO 測試中，新 FW 發布後再通知 SATO 做測試",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Cargowise — 等待 RK96 新 FW",
+            "partner": "si",
+            "vertical": "T&L",
+            "sales": null,
+            "cxs": "新 FW 就緒後跟進",
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "RK96 GMS 認證與新 FW",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": "急需可先用暫時版 2032，GMS 通過後 OTA",
+            "pm_rd": "Android 14 後每版需 GMS 認證，最短發布時間 3 個月",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "RS38 新 FW",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "預計 7/10 發布",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "RS20 DVT Demo Unit",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": null,
+            "cxs": null,
+            "pm_rd": "8月中提供",
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "GPK — RS38 x50",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "Target to close this month",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "PEP — RS38 x50",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Target to close this month",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Coolpak — RK96 x15",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Target to close this month",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Makita NZ — RK96 x20",
+            "partner": "eu",
+            "vertical": "MFG",
+            "sales": "Target to close this month",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Health NZ — RS36 x20",
+            "partner": "eu",
+            "vertical": "Healthcare",
+            "sales": "Target to close this month",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Lombard — RS38 x32",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Target to close this month",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "HDS — TBD（Same as this month）",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Additional orders expected",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "Amart — RS38 50+（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "Rollout continues this quarter",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "GPK — RS38 50+（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "Rollout continues this quarter",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "HDS — RS38 50+（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Rollout continues this quarter",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "Ghanda — RS38 50+（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "Retail",
+            "sales": "Rollout continues this quarter",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "Cope — RS38 50+（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Rollout continues this quarter",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "g",
+            "project": "PEP — RS38 50+（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "T&L",
+            "sales": "Rollout continues this quarter",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          },
+          {
+            "level": "y",
+            "project": "Other Small — RS38 ~100（Q Pipeline）",
+            "partner": "eu",
+            "vertical": "—",
+            "sales": "Quotation stage；Early-stage Q pipeline",
+            "cxs": null,
+            "pm_rd": null,
+            "rma": null,
+            "factory": null
+          }
+        ],
         "hr": ""
       }
     },
